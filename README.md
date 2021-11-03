@@ -27,9 +27,11 @@ https://developer.spotify.com/documentation/web-api/quick-start/
 ​
 # Rodando o projeto
 1. Clone o repositório do projeto `git clone https://github.com/lifercode/test-mobile`
-2. Inicie o projeto `yarn && expo start`
-3. Abra o navegador e acesse [http://localhost:19002](http://localhost:19002/)
-4. Clique em `Run on Android device/emulator` ou `Run on iOS simulator`
-5. Você também pode baixar o [Expo Go](https://expo.dev/client) no seu device e escanear o QRCode no link anterior
+2. Siga os passos [deste tutorial](https://developer.spotify.com/documentation/web-api/quick-start/) para gerar seu token de acesso na API do Spotify
+3. Adicione o token gerado no arquivo `/env.ts`
+4. Inicie o projeto `yarn && expo start`
+5. Abra o navegador e acesse [http://localhost:19002](http://localhost:19002/)
+6. Clique em `Run on Android device/emulator` ou `Run on iOS simulator`
+7. Você também pode baixar o [Expo Go](https://expo.dev/client) no seu device e escanear o QRCode no link anterior
 ​
 ​
