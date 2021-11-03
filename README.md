@@ -1,4 +1,5 @@
 # Teste Mobile | SevenApps
+### Requisitos principais:
 ​
 O seu desáfio será de criar uma tela de listagem de musicas e playlists com informações como foto do artista, nome, nome da musica, e duração da musica, e criar uma tela para adicionar filtros na pesquisa. O estilo da pagina e dos componentes fica ao seu critério.
 ​
@@ -11,7 +12,6 @@ O seu desáfio será de criar uma tela de listagem de musicas e playlists com in
 - Previa da musica na listagem
 ​
 ### Vamos analisar os seguintes pontos:
-​
 - Typescript(se possível)
 - Organização do código
 - Separação dos componentes
@@ -20,5 +20,18 @@ O seu desáfio será de criar uma tela de listagem de musicas e playlists com in
 - Testes unitários(se possível)
 - Libraries usadas
 ​
+###  Api para busca das musicas:
 ​
-###  Api para busca das musicas https://developer.spotify.com/documentation/web-api/quick-start/
+https://developer.spotify.com/documentation/web-api/quick-start/
+​
+​
+# Rodando o projeto
+1. Clone o repositório do projeto `git clone https://github.com/lifercode/test-mobile`
+2. Siga os passos [deste tutorial](https://developer.spotify.com/documentation/web-api/quick-start/) para gerar seu token de acesso na API do Spotify
+3. Adicione o token gerado no arquivo `/env.ts`
+4. Inicie o projeto `yarn && expo start`
+5. Abra o navegador e acesse [http://localhost:19002](http://localhost:19002/)
+6. Clique em `Run on Android device/emulator` ou `Run on iOS simulator`
+7. Você também pode baixar o [Expo Go](https://expo.dev/client) no seu device e escanear o QRCode no link anterior
+​
+​
